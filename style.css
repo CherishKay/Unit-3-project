@@ -1,0 +1,314 @@
+/* Feel free to change any of the styling below!*/
+body {
+    text-align: center;
+  background-color: lavenderblush;
+
+}
+
+img {
+    width: 350px;
+  mix-blend-mode: multiply;
+}
+.ending{
+  width:350px;
+  mix-blend-mode: multiply;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+   
+
+}
+.helpbutton{
+  background-color: violet;
+  border-radius: 20px;
+}
+
+
+
+
+p {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+button {
+    height: 40px;
+  
+}
+.Restart{
+  background-color: violet;
+  border-radius: 5px;
+}
+
+.retry1{
+  display: none;
+  background-color: violet;
+  border-radius: 7px;
+  position: absolute;
+  top: 60%;
+  left: 75%;
+  
+}
+.retry2{
+  display: none;
+  background-color: violet;
+  border-radius: 7px;
+  position: absolute;
+  top: 60%;
+  left: 75%;
+  
+}
+h1 {
+    font-size: 50px;
+    color: black;
+}
+.clover{
+  display: none;
+}
+.correct{
+  display: none;
+}
+.ratatouille{
+  display: none;
+}
+.wrong{
+  display:none;
+}
+.container1{
+  position: relative;
+  width: 50%;
+}
+.container1 img {
+  width: 100%;
+  height: auto;
+}
+.container1 .bush {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.container1 .bush:hover {
+  background-color: black;
+}
+.part1{
+  display: none;
+}
+.container2{
+  position: relative;
+  width: 50%;
+}
+.container2 img {
+  width: 50%;
+  height: auto;
+}
+.container2 .box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.container2 .box:hover {
+  background-color: black;
+}
+.part2{
+  display: none;
+}
+.container3{
+  position: relative;
+  width: 50%;
+}
+.container3 img {
+  width: 100%;
+  height: auto;
+}
+.container3 .hay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.container3 .hay:hover {
+  background-color: black;
+}
+
+.container4{
+  position: relative;
+  width: 50%;
+}
+.container4 img {
+  width: 50%;
+  height: auto;
+}
+.container4 .pineapple {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.container4 .pineapple:hover {
+  background-color: black;
+}
+.Phillipe{
+  display: none;
+}
+.pludo{
+  display: none;
+}
+.wrong2{
+  display: none;
+}
+.correct2{
+  display:none;
+}
+.part3{
+  display:none;
+}
+.container5{
+  position: relative;
+  width: 50%;
+}
+.container5 img {
+  width: 50%;
+  height: auto;
+}
+.container5 .house {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.container5 .house:hover {
+  background-color: black;
+}
+.container5{
+  position: relative;
+  width: 50%;
+}
+/*  .container6 .forest{
+  display: flex;
+  justify-content: center;
+  flex-direction: column; */
+}
+.container6 img {
+  width: 50%;
+  height: auto;
+}
+.container6 .forest {
+    position: absolute;
+  top: 75%;
+  left: 50%; 
+  transform: translate(-55%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.container6 .forest:hover {
+  background-color: black;
+}
+.papa{
+  display:none;
+}
+.dopey{
+  display:none;
+}
+.correct3{
+  display: none;
+}
+.wrong3{
+  display: none;
+}
+.part4{
+  display:none;
+}
+
+/* When someone enters your game, you only want them to see the opening and the option buttons. The code below will use the display property to hide certain parts of the story. Remove the comments from the code below when you're ready for that step!*/
+
+/* 
+.story-opening{
+   display:none;
+}
+*/
+
+/* 
+.buttons{
+   display:none;
+}
+*/
+
+/* 
+.open-one-screen{
+   display:none;
+}
+*/
+
+/* 
+.open-two-screen{
+   display:none;
+}
+*/
+
+/* 
+.open-one-end{
+   display:none;
+}
+*/
+
+/* 
+.open-two-end{
+   display:none;
+}
+*/
